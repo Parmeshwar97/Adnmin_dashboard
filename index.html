@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin-Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="title">
+          <i class="fa-solid fa-bars"></i>
+          <p id="dashboard">Dashboard</p>
+        </div>
+        <nav class="navbar">
+          <div class="home nav-div">
+            <i class="fa-solid fa-house"></i>
+            <p class="nav-items">Home</p>
+          </div>
+          <div class="profile nav-div">
+            <i class="fa-regular fa-address-card"></i>
+            <p class="nav-items">Profile</p>
+          </div>
+          <div class="messages nav-div">
+            <i class="fa-regular fa-message"></i>
+            <p class="nav-items">Messages</p>
+          </div>
+          <div class="history nav-div">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <p class="nav-items">History</p>
+          </div>
+          <div class="tasks nav-div">
+            <i class="fa-solid fa-list-check"></i>
+            <p class="nav-items">Tasks</p>
+          </div>
+          <div class="community nav-div">
+            <i class="fa-solid fa-users"></i>
+            <p class="nav-items">Communities</p>
+          </div>
+        </nav>
+        <div class="options">
+          <div class="setting nav-div">
+            <i class="fa-solid fa-gear"></i>
+            <p class="nav-items">Settings</p>
+          </div>
+          <div class="support nav-div">
+            <i class="fa-regular fa-circle-question"></i>
+            <p class="nav-items">Support</p>
+          </div>
+          <div class="privacy nav-div">
+            <i class="fa-solid fa-shield"></i>
+            <p class="nav-items">Privacy</p>
+          </div>
+        </div>
+      </div>
+      <header>
+        <div class="top-header">
+          <div class="search-container">
+            <form action="#">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" name="search" id="search" />
+            </form>
+          </div>
+          <div class="profile-box">
+            <i class="fa-regular fa-bell"></i>
+            <img src="pxfuel.jpg" alt="profile-pic" id="profile-img" />
+            <h3 class="user_name">Parmeshwar Patil</h3>
+          </div>
+        </div>
+        <div class="bottom-header">
+          <div class="username">
+            <img src="pxfuel.jpg" alt="profile-pic" id="profile-pic" />
+            <div>
+              <p class="greet">Hello there,</p>
+              <h3 class="name">Parmeshwar Patil (@pamu)</h3>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="new-btn">New</button>
+            <button class="upload-btn">Upload</button>
+            <button class="share-btn">Share</button>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="projects">
+          <p class="para-heading">Your Projects</p>
+          <div class="project-1 project-box">
+            <div class="card">
+              <div class="card-info">
+                <h3 class="card-heading">Super Cool Project</h3>
+                <p>
+                  similique? Repellat, odio corrupti quo facilis laudantium
+                  eveniet aperiam possimus consequatur iure? Officiis?
+                </p>
+              </div>
+              <div class="icons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-2 project-box">
+            <div class="card">
+              <div class="card-info">
+                <h3 class="card-heading">Less Cool Project</h3>
+                <p>
+                  adipisicing elit. At, illo sequatur quasi, laborum iusto
+                  possimus neque eos mollitia cumque a pariatur? dicta
+                  repellendus ipsam aut magni beatae ipsum doloremque ea!
+                </p>
+              </div>
+              <div class="icons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-3 project-box">
+            <div class="card">
+              <div class="card-info">
+                <h3 class="card-heading">Impossible App</h3>
+                <p>
+                  sequatur quasi, laborum iusto possimus neque eos mollitia
+                  cumque a pariatur? Repellat quos ratione saepe!
+                </p>
+              </div>
+              <div class="icons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-4 project-box">
+            <div class="card">
+              <div class="card-info">
+                <h3 class="card-heading">Easy Peasy App</h3>
+                <p>
+                  Mpsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                  voluptas, iure modi facere optio a vitae fugit dicta sapiente
+                  amet itaque debitis, quae ipsum at eveniet rem cupiditate
+                  ullam. Exercitationem!
+                </p>
+              </div>
+              <div class="icons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-5 project-box">
+            <div class="card">
+              <div class="card-info">
+                <h3 class="card-heading">Ad Blocker</h3>
+                <p>
+                  Animi molestias molestiae consequatur blanditiis explicabo aut
+                  perspiciatis laborum optio officia soluta autem, consectetur
+                  cupiditate fuga tempora saepe eius tempore dolorem ratione.
+                </p>
+              </div>
+              <div class="icons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div>
+            </div>
+          </div>
+          <div class="project-6 project-box">
+            <div class="card">
+              <div class="card-info">
+                <h3 class="card-heading">Money Maker</h3>
+                <p>
+                  consectetur adipisicing elit. At, labore eius molestiae nihil
+                  architecto similique consequuntur illo dicta repellendus ipsam
+                  aut.
+                </p>
+              </div>
+              <div class="icons">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="left-side">
+          <div class="announcements">
+            <p class="para-heading">Announcements</p>
+            <div class="top-box">
+              <div class="an an-1">
+                <p class="an-head">Site Maintenance</p>
+                <p class="an-para">
+                  Blanditiis maxime explicabo libero culpa ipsa cum officiis
+                  harum, alias, rerum autem delectus.
+                </p>
+              </div>
+              <div class="an an-2">
+                <p class="an-head">Community Share</p>
+                <p class="an-para">
+                  Repellendus harum perspiciatis perferendis accusamus non illo
+                  omnis facilis. Fuga tenetur quo neque velit.
+                </p>
+              </div>
+              <div class="an an-3">
+                <p class="an-head">Updated Privacy Policy</p>
+                <p class="an-para">
+                  Lorem ipsum dolor sit amet elit. Aliquam delectus enim
+                  consectetur laboriosam repellat nisi tempore.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="trending">
+            <p class="para-heading">Trending</p>
+            <div class="bottom-box">
+              <div class="user-container">
+                <img src="anime_boy_1.png" alt="boy_pic" />
+                <div class="user_info">
+                  <p class="user_name">@ganu_baba</p>
+                  <p class="bio">Life Changing App</p>
+                </div>
+              </div>
+              <div class="user-container">
+                <img src="anime_girl_2.png" alt="girl_pic" />
+                <div class="user_info">
+                  <p class="user_name">@dipuuuu</p>
+                  <p class="bio">No Traffic Maker</p>
+                </div>
+              </div>
+              <div class="user-container">
+                <img src="anime_girl_3.png" alt="anime_girl" />
+                <div class="user_info">
+                  <p class="user_name">@ak_pravin</p>
+                  <p class="bio">Add Blocker</p>
+                </div>
+              </div>
+              <div class="user-container">
+                <img src="anime_boy_2.png" alt="anime_boy" />
+                <div class="user_info">
+                  <p class="user_name">@nilu_model</p>
+                  <p class="bio">World Pieace Builder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
